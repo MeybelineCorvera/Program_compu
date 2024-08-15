@@ -1,30 +1,30 @@
-let day = 1;
-let numDay;
+let numday = 1;
+let Day;
 
-switch(day){
+switch(numday){
     case 1:
-        numDay = "Lunes";
+        Day = "Lunes";
         break;
     case 2:
-        numDay = "Martes";
+        Day = "Martes";
         break;
     case 3:
-        numDay = "Miercoles";
+        Day = "Miercoles";
         break;
     case 4:
-        numDay = "Jueves";
+        Day = "Jueves";
         break;
     case 5:
-        numDay = "Virnes";
+        Day = "Virnes";
         break;
     case 6:
-        numDay = "Sabado";
+        Day = "Sabado";
         break;
     case 7:
-        numDay = "Domingo";
+        Day = "Domingo";
         break;
     default:
-        numDay = "Dia invalido";
+        Day = "Dia invalido";
 }
 
-console.log(numDay);
+console.log(Day);
